@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar servidor
-const PORT = 3000;
+const PORT = 80;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
